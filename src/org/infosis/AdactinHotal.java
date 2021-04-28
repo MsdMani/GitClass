@@ -15,10 +15,14 @@ driver.get("https://adactinhotelapp.com/");
 	txtUser.sendKeys("msdmani");
 	String userName=txtUser.getAttribute("value");
 	System.out.println(userName);
+	
 	WebElement txtPass=driver.findElement(By.xpath("//input[@type='password']"));
-	txtPass.sendKeys("965679997");
+	txtPass.sendKeys("1234567890");
 	String userPassword=txtPass.getAttribute("value");
+	
+	
 	System.out.println(userPassword);
+
 }
 
 
