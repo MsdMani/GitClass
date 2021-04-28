@@ -22,6 +22,7 @@ driver.get("https://adactinhotelapp.com/");
 	
 	
 	System.out.println(userPassword);
+	System.out.println(userPassword);
 
 }
 
